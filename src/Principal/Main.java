@@ -3,15 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package DAO;
-
-import java.sql.PreparedStatement;
+package Principal;
 
 /**
  *
  * @author Pedro Alcantara
  */
-public class ClienteDAO {
-
-    
+public class Main {
+    public static void main(String[] args) {
+        new Login().setVisible(true);
+    }
 }
